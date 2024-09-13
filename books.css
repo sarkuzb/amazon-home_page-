@@ -1,0 +1,22 @@
+.books{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.container-books{
+    background-color: white;
+}
+
+.main-text-books{
+    margin: 0;
+    padding: 15px 0 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.first-div-books{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 20px 20px;
+}

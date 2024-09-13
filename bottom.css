@@ -1,0 +1,33 @@
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 26, 34);
+    height: 200px;
+    margin-top: 4%;
+}
+
+.inside-div-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text-bottom{
+    width: 20%;
+    font-size: 12px;
+}
+
+.second-text-bottom{
+    color: white;
+}
+
+.third-text-bottom{
+    color: rgb(153, 153, 153);
+}
+
+.second-text-bottom:hover,
+.third-text-bottom:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

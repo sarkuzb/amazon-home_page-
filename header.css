@@ -1,0 +1,188 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    position: static;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(19, 25, 33);
+}
+
+.logo{
+    width: 100px;
+    margin-left: 30px;
+    padding: 10px;
+    border: 1.5px solid transparent;
+    border-radius: 3px;
+}
+
+.logo:hover{
+    cursor: pointer;
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+.location-deliver-to{
+    display: flex;
+    border: 1.5px solid transparent;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.location-deliver-to:hover{
+    cursor: pointer;
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+.location{
+    object-fit: contain;
+    width: 18px;
+    margin-top: 10px;
+}
+
+.deliver{
+    color: rgb(202, 202, 202);
+    font-size: 13px;
+}
+
+.uzbekistan{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.deliver,
+.uzbekistan{
+    margin: 0;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 0;
+    height: 40px;
+    background-color: white;
+    border-radius: 12px;
+    border: 3px solid rgb(19, 25, 33);
+}
+
+.input:hover{
+    box-shadow: 0 0 10px black;
+}
+
+.input:focus-within{
+    border: 3px solid orange;
+}
+
+.all-down{
+    display: flex;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-right: 2px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    cursor: pointer;
+}
+
+.all-down:hover{
+    background-color: rgb(202, 202, 202);
+    color: black;
+}
+
+.all{
+    font-size: 13px;
+    color: #646464;
+    margin-right: 8px;
+}
+
+.search{
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-left: 13px;
+}
+
+.search-icon{
+    padding: 8px;
+    background-color: rgb(248, 180, 91);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.search-icon:hover{
+    background-color: rgb(250, 163, 48);
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    border: 1.5px solid transparent;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.language:hover{
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+.div-language{
+    display: flex;
+}
+
+.flag{
+    object-fit: contain;
+    width: 22px;
+    margin-right: 5px;
+}
+
+.english{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.sign-in{
+    border: 1.5px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.sign-in:hover{
+    border: 1.5px solid rgb(255, 255, 255);
+}
+
+.hello{
+    font-size: 13px;
+    color: white;
+}
+
+.account{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.drop-down{
+    margin-top: 13px;
+}
+
+.cart{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    margin-right: 30px;
+    border: 1.5px solid rgb(19, 25, 33);
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 14px;  
+}
+
+.cart:hover{
+    border: 1.5px solid rgb(255, 255, 255);
+}

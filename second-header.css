@@ -1,0 +1,56 @@
+.div-second-header{
+    display: flex;
+    align-items: center;
+    height: 38px;
+    background-color: rgb(35, 47, 62);
+    margin-bottom: 4%;
+}
+
+.menu-all{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 32px;
+    cursor: pointer;
+    padding: 6px;
+    border: 1.5px solid transparent;
+    border-radius: 3px;
+}
+
+.menu-all:hover{
+    border: 1.5px solid rgb(252, 252, 252);
+}
+
+.menu{
+    margin-right: 5px;
+}
+
+.second-main-texts{
+    display: flex;
+    flex: 1;
+    color: white;
+}
+
+.second-header-main-texts{
+    cursor: pointer;
+    padding: 0.5%;
+    border: 1.5px solid transparent;
+    border-radius: 3px;
+}
+
+.second-header-main-texts:hover{
+    border: 1.5px solid rgb(252, 252, 252);
+}
+
+.gaming{
+    cursor: pointer;
+    border: 1.5px solid transparent;
+    border-radius: 3px;
+    color: white;
+    margin-right: 35px;
+    padding: 0.4%;
+}
+
+.gaming:hover{
+    border: 1.5px solid rgb(252, 252, 252);
+}
